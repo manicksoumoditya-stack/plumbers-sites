@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{name}} | Plumber in {{city}}</title>
+<meta name="description" content="{{name}} - trusted plumbing services in {{city}}. {{tagline}}">
+<link rel="stylesheet" href="../assets/style.css"></head><body>
+<header class="nav"><div class="wrap navin">
+<a class="brand" href="#top"><span class="logo">💧</span><b>{{name}}</b></a>
+<nav><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<div class="navcta"><a class="phone" href="tel:{{tel}}">{{phone}}<small>{{emerg_short}}</small></a>
+<a class="btn" href="{{quote_link}}">Book a Service</a></div></div></header>
+
+<section id="top" class="hero" style="{{hero_style}}"><div class="wrap">
+<p class="kicker">FAST · PROFESSIONAL · AFFORDABLE</p>
+<h1>Reliable Plumbing For a <span>Better Tomorrow</span></h1>
+<p class="lead">{{tagline}}</p>
+<div class="ctas"><a class="btn" href="{{quote_link}}">Book a Service →</a><a class="btn ghost" href="{{quote_link}}">Get a Free Quote</a></div>
+<ul class="badges">{{badges}}</ul></div>
+<a class="help" href="tel:{{tel}}">Need Immediate Help?<b>Call {{phone}}</b></a></section>
+
+<section id="services"><div class="wrap">
+<p class="eyebrow">OUR SERVICES</p><h2>Complete Plumbing Solutions</h2>
+<div class="cards">{{service_cards}}</div></div></section>
+
+<section id="about" class="about"><div class="wrap aboutgrid">
+<div class="aboutpic" style="{{about_style}}"></div>
+<div><p class="eyebrow">ABOUT {{name_upper}}</p><h2>Your Trusted Local Plumber</h2>
+<p>At {{name}}, we believe every home and business deserves reliable plumbing and peace of mind. Serving {{service_area}} with honest pricing and long-lasting solutions.</p>
+<ul class="ticks"><li>Licensed &amp; Certified Technicians</li><li>Transparent &amp; Fair Pricing</li><li>Quality Workmanship</li><li>Customer-First Approach</li></ul>
+<a class="btn" href="#contact">Contact Us →</a></div></div></section>
+
+{{stats_block}}
+
+<section class="cta"><div class="wrap"><h2>Ready to Solve Your Plumbing Problem?</h2>
+<p style="margin-bottom:20px">Get fast, reliable, and affordable plumbing services today.</p>
+<div class="ctas" style="justify-content:center"><a class="btn" href="{{quote_link}}">Book a Service →</a><a class="btn ghost" href="tel:{{tel}}">Call {{phone}}</a></div></div></section>
+
+<footer id="contact"><div class="wrap"><div class="fgrid">
+<div><h4>💧 {{name}}</h4><p>Reliable plumbing solutions for homes and businesses. Clean water. Brighter lives.</p></div>
+<div><h4>Quick Links</h4><ul><li><a href="#top">Home</a></li><li><a href="#about">About Us</a></li><li><a href="#services">Services</a></li></ul></div>
+<div><h4>Our Services</h4><ul>{{footer_services}}</ul></div>
+<div><h4>Contact Info</h4><ul><li>📍 {{address}}</li><li>📞 <a href="tel:{{tel}}">{{phone}}</a></li>{{email_li}}<li>🕘 {{hours}}</li></ul></div>
+</div><p class="copy">© {{year}} {{name}}. All rights reserved.</p></div></footer>
+</body></html>
